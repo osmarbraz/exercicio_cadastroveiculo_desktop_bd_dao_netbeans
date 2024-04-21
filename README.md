@@ -28,12 +28,12 @@ Uma empresa de locação de veículos necessita de um sistema para desktop em Ja
 
 ```
 CREATE TABLE veiculo (
-	veiculoID    INTEGER NOT NULL AUTO_INCREMENT,    	 
-	placa          VARCHAR(7) NOT NULL,     
-	modelo       VARCHAR(50) NOT NULL,     
-	marca         VARCHAR(50) NOT NULL,     
-	lugares        INTEGER NOT NULL,
-	valorAluguel  DECIMAL(9,2) NOT NULL,     
+	veiculoID       INTEGER NOT NULL AUTO_INCREMENT,    	 
+	placa           VARCHAR(7) NOT NULL,     
+	modelo          VARCHAR(50) NOT NULL,     
+	marca           VARCHAR(50) NOT NULL,     
+	lugares         INTEGER NOT NULL,
+	valorAluguel    DECIMAL(9,2) NOT NULL,     
 	PRIMARY KEY(veiculoID)    
 );
 ```
